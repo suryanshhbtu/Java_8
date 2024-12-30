@@ -16,6 +16,6 @@ public class ForEach {
             System.out.println(i.next());
         }
         // Internal Iterators
-        list.forEach(j -> System.out.println(j));
+        list.forEach(System.out::println);
     }
 }
