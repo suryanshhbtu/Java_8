@@ -10,4 +10,7 @@ public interface I {
     default void showMe(){
         System.out.println("showMe: I");
     }
+    static void printTree(){
+        System.out.println("Static Method Of Interface I");
+    }
 }

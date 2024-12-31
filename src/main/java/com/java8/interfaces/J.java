@@ -7,4 +7,7 @@ public interface J {
     default void showMe(){
         System.out.println("showMe: J");
     }
+    static void printTree(){
+        System.out.println("Static Method Of Interface J");
+    }
 }
